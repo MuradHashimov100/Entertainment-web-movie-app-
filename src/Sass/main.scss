@@ -1,0 +1,18 @@
+@import './abstracts/variables.scss';
+@import './abstracts/reset.scss';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200&display=swap');
+
+
+body{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+.title{
+    font-size:32px;
+    color:#fff;
+}

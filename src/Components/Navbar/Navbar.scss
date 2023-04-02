@@ -1,0 +1,36 @@
+.menu{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    .logo{
+        width: 25px;
+        height: 20px;
+    }
+    ul{
+        display: flex;
+        gap: 24px;
+    }
+    .profil{
+        object-fit: cover;
+    }
+}
+
+
+@media screen and (min-width: 850px) {
+    .menu{
+        display: flex !important;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-around;
+        gap: 7.9rem;
+        ul{
+            flex-direction: column;
+        }
+        .profil{
+            justify-self:end !important;
+            position: relative;
+            bottom: -26rem;
+        }
+    }
+  }

@@ -1,0 +1,16 @@
+.search-form{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    gap: 16px;
+    margin-top: 2rem;
+    .search-input{
+        background: none;
+        border: navajowhite;
+        outline: none;
+        width: 80%;
+    }
+    .search-input[placeholder]{
+        color: #fff;
+    }
+}
